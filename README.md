@@ -32,7 +32,9 @@ React Frontend → FastAPI Backend → Zilliz Cloud → Semantic Search Results
 ### Cloud Services
 - Zilliz Cloud account (free tier available)
 
-## Environment Configuration
+
+
+## 🫆 Environment Configuration
 - Create .env file in backend directory:
 ```bash
 # Zilliz Cloud Configuration
