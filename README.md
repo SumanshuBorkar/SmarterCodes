@@ -44,12 +44,12 @@ git clone https://github.com/SumanshuBorkar/SmarterCodes.git
 
 cd server
 
-// Most stable in pyhton 3.11.9
+#  Most stable in pyhton 3.11.9
 brew install pyenv
 pyenv install 3.11.9
 pyenv local 3.11.9
 
-// Setup the virtual environment
+#  Setup the virtual environment
 python3.11 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
