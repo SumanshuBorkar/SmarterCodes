@@ -38,12 +38,19 @@ React Frontend → FastAPI Backend → Zilliz Cloud → Semantic Search Results
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd semantic-search-app
+git clone https://github.com/SumanshuBorkar/SmarterCodes.git
 
 # Backend setup
-cd backend
-python -m venv venv
+
+cd server
+
+// Most stable in pyhton 3.11.9
+brew install pyenv
+pyenv install 3.11.9
+pyenv local 3.11.9
+
+// Setup the virtual environment
+python3.11 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python -c "import nltk; nltk.download('punkt')"
@@ -51,3 +58,4 @@ python -c "import nltk; nltk.download('punkt')"
 # Frontend setup
 cd ../frontend
 npm install
+npm run dev
