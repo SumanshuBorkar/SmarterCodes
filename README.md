@@ -16,3 +16,38 @@ A comprehensive single-page application (SPA) that enables users to input websit
 ## Architecture
 
 React Frontend → FastAPI Backend → Zilliz Cloud → Semantic Search Results
+
+
+## 📋 Prerequisites
+
+### Backend Requirements
+- Python 3.8 or higher
+- pip (Python package manager)
+- Virtual environment support
+
+### Frontend Requirements
+- Node.js 14.0 or higher
+- npm or yarn package manager
+
+### Cloud Services
+- Zilliz Cloud account (free tier available)
+
+## 🚀 Quick Start
+
+### 1. Clone and Setup
+
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd semantic-search-app
+
+# Backend setup
+cd backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python -c "import nltk; nltk.download('punkt')"
+
+# Frontend setup
+cd ../frontend
+npm install
