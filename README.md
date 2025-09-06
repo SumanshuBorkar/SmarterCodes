@@ -78,3 +78,16 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 cd ../frontend
 npm install
 npm run dev
+
+```
+
+# Zilliz Cloud Setup
+Sign up at Zilliz Cloud
+
+Create a new serverless cluster
+
+Obtain your cluster URI and API token
+
+Update the .env file with your credentials 
+
+(I have provided my credentials for now , but I will remove them soon )
