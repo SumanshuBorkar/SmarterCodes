@@ -32,6 +32,23 @@ React Frontend → FastAPI Backend → Zilliz Cloud → Semantic Search Results
 ### Cloud Services
 - Zilliz Cloud account (free tier available)
 
+## Environment Configuration
+- Create .env file in backend directory:
+```bash
+# Zilliz Cloud Configuration
+ZILLIZ_URI=https://in03-03c9fdee0c3edc6.serverless.aws-eu-central-1.cloud.zilliz.com
+ZILLIZ_TOKEN=f5aff2f44940b8e0e06b5026a4381761c8bb0b8614db9a5c5d8e657246d8e58de5971164572fcb93e3a158f24d557a22f3ffa304
+
+# Model Configuration
+EMBEDDING_MODEL=all-MiniLM-L6-v2
+COLLECTION_NAME=web_content_chunks
+
+# Server Configuration
+PORT=8000
+LOG_LEVEL=info
+
+```
+
 ## 🚀 Quick Start
 
 ### 1. Clone and Setup
