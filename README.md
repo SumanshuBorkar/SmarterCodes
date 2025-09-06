@@ -36,6 +36,12 @@ React Frontend → FastAPI Backend → Zilliz Cloud → Semantic Search Results
 
 ## 🫆 Environment Configuration
 - Create .env file in backend directory:
+- Sign up at Zilliz Cloud
+- Create a new serverless cluster
+- Obtain your cluster URI and API token
+- Update the .env file with your credentials
+- (I have provided my credentials for now , but I will remove them soon )
+
 ```bash
 # Zilliz Cloud Configuration
 ZILLIZ_URI=https://in03-03c9fdee0c3edc6.serverless.aws-eu-central-1.cloud.zilliz.com
@@ -80,14 +86,3 @@ npm install
 npm run dev
 
 ```
-
-# Zilliz Cloud Setup
-Sign up at Zilliz Cloud
-
-Create a new serverless cluster
-
-Obtain your cluster URI and API token
-
-Update the .env file with your credentials 
-
-(I have provided my credentials for now , but I will remove them soon )
