@@ -44,8 +44,8 @@ React Frontend → FastAPI Backend → Zilliz Cloud → Semantic Search Results
 
 ```bash
 # Zilliz Cloud Configuration
-ZILLIZ_URI=https://in03-03c9fdee0c3edc6.serverless.aws-eu-central-1.cloud.zilliz.com
-ZILLIZ_TOKEN=f5aff2f44940b8e0e06b5026a4381761c8bb0b8614db9a5c5d8e657246d8e58de5971164572fcb93e3a158f24d557a22f3ffa304
+ZILLIZ_URI=++++
+ZILLIZ_TOKEN=+++++
 
 # Model Configuration
 EMBEDDING_MODEL=all-MiniLM-L6-v2
